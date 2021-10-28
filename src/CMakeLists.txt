@@ -21,6 +21,7 @@ set(VNOID_SOURCES
 	)
 
 add_cnoid_library(vnoid_lib
+ STATIC
  ${VNOID_HEADERS}
  ${VNOID_SOURCES}
  )
